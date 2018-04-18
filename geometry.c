@@ -1,4 +1,4 @@
-/*
+ /*
  * geometry.c
  * Andy Sayler
  * CSCI 3308
