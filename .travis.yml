@@ -1,0 +1,7 @@
+language: c
+compiler:
+
+-gcc
+sudo: enabled
+install: make get-deps
+script: make text
