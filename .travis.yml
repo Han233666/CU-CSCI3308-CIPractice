@@ -1,7 +1,8 @@
 language: c
-compiler:
+compiler: gcc
+before_install:
+     sudo apt-get install check
 
--gcc
 sudo: enabled
 install: make get-deps
-script: make text
+script: make test
