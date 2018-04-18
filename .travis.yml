@@ -4,5 +4,5 @@ before_install:
      sudo apt-get install check
 
 sudo: enabled
-install: make get-deps
+
 script: make test
